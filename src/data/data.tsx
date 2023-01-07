@@ -367,6 +367,6 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/akshzyx'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/16876093/aksh'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/akshzyx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/akshzyx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/akshzyx'},
+  {label: 'Instagram', Icon: InstagramIcon, href: '#'},
+  {label: 'Twitter', Icon: TwitterIcon, href: '#'},
 ];
