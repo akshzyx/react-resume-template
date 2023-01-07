@@ -36,7 +36,7 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
+//   TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
