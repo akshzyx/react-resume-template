@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Akshit',
-  description: "My portfolio website",
+  title: 'React Resume Template',
+  description: "Example site built with Tim Baker's react resume template",
 };
 
 /**
@@ -69,18 +69,18 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Hi, I'm Akshit.`,
+  name: `I'm Tim Baker.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I’m a pre-final year undergraduate student at <strong className="text-stone-100">National Institute of Technology Hamirpur, Himachal Pradesh</strong>, currently pursuing my bachelor's degree in Chemical Engineering.
-        {/* at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder. */}
+        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
+        registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring my beautiful{' '}
-        <strong className="text-stone-100">college campus.</strong>.
+        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
     </>
   ),
@@ -108,12 +108,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Hamirpur, HP', Icon: MapIcon},
-    // {label: 'Age', text: '29', Icon: CalendarIcon},
-    // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Cars, Astronomy, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'National Institute of Technology, Hamirpur', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Full time college student', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -129,11 +129,11 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Hindi',
-        level: 10,
+        name: 'French',
+        level: 4,
       },
       {
-        name: 'German',
+        name: 'Spanish',
         level: 3,
       },
     ],
@@ -142,15 +142,15 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'HTML/CSS',
+        name: 'React',
         level: 9,
       },
       {
-        name: 'Javascript',
-        level: 6,
+        name: 'Typescript',
+        level: 7,
       },
       {
-        name: 'React.js',
+        name: 'GraphQL',
         level: 6,
       },
     ],
@@ -159,33 +159,33 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Python',
+        name: 'Node.js',
         level: 8,
       },
       {
-        name: 'Node.js',
-        level: 4,
+        name: 'Rust',
+        level: 5,
       },
       {
-        name: 'SQL',
-        level: ,
+        name: 'Golang',
+        level: 4,
       },
     ],
   },
   {
-    name: 'Programming languages',
+    name: 'Mobile development',
     skills: [
       {
-        name: 'Pyhton',
+        name: 'React Native',
         level: 9,
       },
       {
-        name: 'Javascript',
-        level: 6,
+        name: 'Flutter',
+        level: 4,
       },
       {
-        name: 'c',
-        level: 5,
+        name: 'Swift',
+        level: 3,
       },
     ],
   },
@@ -196,71 +196,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Web Music Player',
-    description: 'An online web music player.',
-    url: 'https://jojimusic.netlify.app/',
+    title: 'Project title 1',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
     image: porfolioImage1,
   },
   {
-    title: 'Year Progress Clock',
-    description: 'A online clock showing how much year, month, day, hour has progressed.',
-    url: 'https://akshzyx.github.io/year-progress/',
+    title: 'Project title 2',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
     image: porfolioImage2,
   },
   {
-    title: 'Frames in Order',
-    description: 'A Python script allowing you to run your own Twitter bot that posts every frame of a TV show. ',
-    url: 'https://github.com/akshzyx/all-frames-in-order',
+    title: 'Project title 3',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
     image: porfolioImage3,
   },
-  // {
-  //   title: 'Project title 4',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage4,
-  // },
-  // {
-  //   title: 'Project title 5',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage5,
-  // },
-  // {
-  //   title: 'Project title 6',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage6,
-  // },
-  // {
-  //   title: 'Project title 7',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage7,
-  // },
-  // {
-  //   title: 'Project title 8',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage8,
-  // },
-  // {
-  //   title: 'Project title 9',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage9,
-  // },
-  // {
-  //   title: 'Project title 10',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage10,
-  // },
-  // {
-  //   title: 'Project title 11',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://timbaker.me',
-  //   image: porfolioImage11,
-  // },
+  {
+    title: 'Project title 4',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Project title 5',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Project title 6',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Project title 7',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage7,
+  },
+  {
+    title: 'Project title 8',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage8,
+  },
+  {
+    title: 'Project title 9',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Project title 10',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage10,
+  },
+  {
+    title: 'Project title 11',
+    description: 'Give a short description of your project here.',
+    url: 'https://timbaker.me',
+    image: porfolioImage11,
+  },
 ];
 
 /**
@@ -268,9 +268,9 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: '2020 - Present',
-    location: 'National Institute of Technology, Hamirpur',
-    title: 'Bachelors in Chemical Engineering',
+    date: 'April 2007',
+    location: 'Clown college',
+    title: 'Masters in Beer tasting',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
@@ -283,26 +283,24 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2020 - June 2020',
-    location: 'Jankalyan Multipurpose Education Society',
-    title: 'Intern',
+    date: 'March 2010 - Present',
+    location: 'Awesome Development Company',
+    title: 'Senior UX Engineer',
     content: (
       <p>
-         1. Formalised growth startegy.
-         2. Started a fund raising campaign.
-         3. Executed various marketing campaigns.
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
       </p>
     ),
   },
   {
-    date: 'June 2020 - July 2020',
-    location: 'Muskurahat Foundation',
-    title: 'Intern',
+    date: 'March 2007 - February 2010',
+    location: 'Garage Startup Studio',
+    title: 'Junior bug fixer',
     content: (
       <p>
-        1. Organised various events for the NGO.
-        2. Raised funds for the NGO by approaching people.
-        3. Learned how NGOs functions and how you can create an impact.
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
       </p>
     ),
   },
@@ -311,26 +309,26 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
- export const testimonial: TestimonialSection = {
-   imageSrc: testimonialImage,
-   testimonials: [
-     {
-       name: 'John Doe',
-       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-     },
-     {
-       name: 'Jane Doe',
-       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-     },
-     {
-         name: 'Someone else',
-       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-     },
-   ],
- };
+export const testimonial: TestimonialSection = {
+  imageSrc: testimonialImage,
+  testimonials: [
+    {
+      name: 'John Doe',
+      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
+    {
+      name: 'Jane Doe',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    },
+    {
+      name: 'Someone else',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+  ],
+};
 
 /**
  * Contact section
@@ -342,23 +340,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'akshzyx@gmail.com',
-      href: 'mailto:akshzyx@gmail.com',
+      text: 'reachout@timbaker.me',
+      href: 'mailto:reachout@timbaker.me',
     },
     {
       type: ContactType.Location,
-      text: 'Hamirpur, HP',
-      href: 'https://www.google.ca/maps/place/National+Institute+of+Technology,+Hamirpur+(NIT+-+Hamirpur)/@31.7084336,76.5231254,17z/data=!3m1!4b1!4m5!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.7084291!4d76.5273526',
+      text: 'Victoria BC, Canada',
+      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
-    // {
-    //   type: ContactType.Instagram,
-    //   text: '@tbakerx',
-    //   href: 'https://www.instagram.com/tbakerx/',
-    // },
+    {
+      type: ContactType.Instagram,
+      text: '@tbakerx',
+      href: 'https://www.instagram.com/tbakerx/',
+    },
     {
       type: ContactType.Github,
-      text: 'akshzyx',
-      href: 'https://github.com/akshzyx',
+      text: 'tbakerx',
+      href: 'https://github.com/tbakerx',
     },
   ],
 };
@@ -367,9 +365,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/akshzyx'},
-  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/akshzyx/'},
-  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
