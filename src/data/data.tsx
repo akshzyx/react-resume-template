@@ -1,30 +1,4 @@
-import {
-  AcademicCapIcon,
-  CalendarIcon,
-  DownloadIcon,
-  FlagIcon,
-  MapIcon,
-  OfficeBuildingIcon,
-  SparklesIcon,
-} from '@heroicons/react/outline';
-
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+tfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -103,7 +77,6 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am an someone with an entrepreneurial spirit, a knack for web development, and a passion for coding. Born in a small town in Talara, Kangra, I made my move to NIT Hamirpur where I persue my bachelors.
-
 Outside of college I enjoy watching movies , playing games. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio during lockdown at my home..`,
   aboutItems: [
     {label: 'Location', text: 'Hamirpur, HP', Icon: MapIcon},
@@ -282,32 +255,24 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'May 2020 - June 2020',
-    location: 'Intern',
-    title: 'Jankalyan Multipurpose Education Society',
+    location: 'Jankalyan Multipurpose Education Society',
+    title: 'Intern',
     content: (
       <p>
         1. Formalised growth startegy.
-      </p>
-      <p>
         2. Started a fund raising campaign.
-      </p>
-      <p>
         3. Executed various marketing campaigns.
       </p>
     ),
   },
   {
     date: 'June 2020 - July 2020',
-    location: 'Intern',
-    title: 'Muskurahat Foundation',
+    location: 'Muskurahat Foundation',
+    title: 'Intern',
     content: (
       <p>
         1. Organised various events for the NGO.
-      </p>
-      <p>
         2. Raised funds for the NGO by approaching people.
-      </p>
-      <p>
         3. Learned how NGOs functions and how you can create an impact.
       </p>
     ),
@@ -356,11 +321,11 @@ export const contact: ContactSection = {
       text: 'Hamirpur, HP',
       href: 'https://www.google.ca/maps/place/National+Institute+of+Technology,+Hamirpur+(NIT+-+Hamirpur)/@31.7084336,76.5231254,17z/data=!3m1!4b1!4m5!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.7084291!4d76.5273526',
     },
-//     {
-//       type: ContactType.Instagram,
-//       text: '@tbakerx',
-//       href: 'https://www.instagram.com/akshzyx/',
-//     },
+    {
+      type: ContactType.Instagram,
+      text: '@tbakerx',
+      href: 'https://www.instagram.com/akshzyx/',
+    },
     {
       type: ContactType.Github,
       text: 'akshzyx',
@@ -374,8 +339,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/akshzyx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/16876093/aksh'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/akshzyx/'},
-//   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/akshzyx/'},
-//   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/akshzyx'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/akshzyx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/akshzyx'},
 ];
