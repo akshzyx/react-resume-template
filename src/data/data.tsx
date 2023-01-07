@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Akshit',
+  description: "My portfolio website",
 };
 
 /**
@@ -69,18 +69,16 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Akshit.`,
+  name: `Hi, I'm Akshit.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I’m a pre-final year undergraduate student at <strong className="text-stone-100">National Institute of Technology Hamirpur, Himachal Pradesh</strong>, currently pursuing my bachelor's degree in Chemical Engineering.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        plucking my <strong className="text-stone-100">banjo</strong>, or exploring my beautiful{' '}
+        <strong className="text-stone-100">college campus</strong>.
       </p>
     </>
   ),
@@ -108,12 +106,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Hamirpur, HP', Icon: MapIcon},
+    {label: 'Age', text: '21', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Cars, Astronomy, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'National Institute of Technology, Hamirpur', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Full time college student', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -129,11 +127,11 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Hindi',
+        level: 10,
       },
       {
-        name: 'Spanish',
+        name: 'German',
         level: 3,
       },
     ],
@@ -142,15 +140,15 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
+        name: 'HTML/CSS',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Javascript',
+        level: 6,
       },
       {
-        name: 'GraphQL',
+        name: 'React.js',
         level: 6,
       },
     ],
@@ -159,33 +157,33 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Pyhton',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'Node.js',
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'SQL',
+        level: 3,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Programming languages',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'pyhton',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Javascript',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'C',
+        level: 5,
       },
     ],
   },
@@ -196,15 +194,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Web Music Player',
+    description: 'An onlinr web music player',
+    url: 'https://jojimusic.netlify.app/',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Year Progress Clock',
+    description: 'A online clock showing how much year, month, day, hour has progressed.',
+    url: 'https://akshzyx.github.io/year-progress/',
     image: porfolioImage2,
   },
   {
