@@ -102,9 +102,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am an someone with an entrepreneurial spirit, a knack for web development, and a passion for coding. Born in a small town in Talara, Kangra, I made my move to NIT Hamirpur where I persue my bachelors.
+
+Outside of college I enjoy watching movies , playing games. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio during lockdown at my home..`,
   aboutItems: [
     {label: 'Location', text: 'Hamirpur, HP', Icon: MapIcon},
     {label: 'Age', text: '21', Icon: CalendarIcon},
@@ -205,60 +205,60 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://akshzyx.github.io/year-progress/',
     image: porfolioImage2,
   },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+//   {
+//     title: 'Project title 3',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage3,
+//   },
+//   {
+//     title: 'Project title 4',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage4,
+//   },
+//   {
+//     title: 'Project title 5',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage5,
+//   },
+//   {
+//     title: 'Project title 6',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage6,
+//   },
+//   {
+//     title: 'Project title 7',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage7,
+//   },
+//   {
+//     title: 'Project title 8',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage8,
+//   },
+//   {
+//     title: 'Project title 9',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage9,
+//   },
+//   {
+//     title: 'Project title 10',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage10,
+//   },
+//   {
+//     title: 'Project title 11',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage11,
+//   },
 ];
 
 /**
@@ -266,39 +266,41 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: '2020 - Present',
+    location: 'National Instutute of Technolgy, Hamirpur',
+    title: 'Bachelors in Chemical Engineering',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: '2017 - 2019',
+    location: 'MCM DAV Baghni, Nurpur',
+    title: 'High School',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2020 - June 2020',
+    location: 'Jankalyan Multipurpose Education Society',
+    title: 'Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        1. Formalised growth startegy.
+        2. Started a fund raising campaign.
+        3. Executed various marketing campaigns.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'June 2020 - July 2020',
+    location: 'Muskurahat Foundation',
+    title: 'Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        1. Organised various events for the NGO.
+        2. Raised funds for the NGO by approaching people.
+        3. Learned how NGOs functions and how you can create an impact.
       </p>
     ),
   },
@@ -338,23 +340,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'akshzyx@gmail.com',
+      href: 'mailto:akshzyx@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Hamirpur, HP',
+      href: 'https://www.google.ca/maps/place/National+Institute+of+Technology,+Hamirpur+(NIT+-+Hamirpur)/@31.7084336,76.5231254,17z/data=!3m1!4b1!4m5!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.7084291!4d76.5273526',
     },
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/akshzyx/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'akshzyx',
+      href: 'https://github.com/akshzyx',
     },
   ],
 };
@@ -363,9 +365,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/akshzyx'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/akshzyx/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/akshzyx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/akshzyx'},
 ];
