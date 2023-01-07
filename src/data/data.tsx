@@ -286,13 +286,11 @@ export const experience: TimelineItem[] = [
     title: 'Jankalyan Multipurpose Education Society',
     content: (
       <p>
-        1. Formalised growth startegy.
-      </p>
-      <p>
-        2. Started a fund raising campaign.
-       </p>
-      <p>
-        3. Executed various marketing campaigns.
+        <ul>
+          <li>1. Formalised growth startegy.</li>
+          <li>2. Started a fund raising campaign.</li>
+          <li>3. Executed various marketing campaigns.</li>
+        </ul>
       </p>
     ),
   },
@@ -302,13 +300,11 @@ export const experience: TimelineItem[] = [
     title: 'Muskurahat Foundation',
     content: (
       <p>
-        1. Organised various events for the NGO.
-      </p>
-      <p>
-        2. Raised funds for the NGO by approaching people.
-      </p>
-      <p>
-        3. Learned how NGOs functions and how you can create an impact.
+        <ul>
+          <li>1. Organised various events for the NGO.
+          <li>2. Raised funds for the NGO by approaching people.
+          <li>3. Learned how NGOs functions and how you can create an impact.
+        </ul>
       </p>
     ),
   },
