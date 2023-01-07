@@ -76,7 +76,7 @@ export const heroData: Hero = {
         I’m a pre-final year undergraduate student at <strong className="text-stone-100">National Institute of Technology Hamirpur, Himachal Pradesh</strong>, currently pursuing my bachelor's degree in Chemical Engineering.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        In my free time time, you can catch me watching <strong className="text-stone-100">sci-fi movies</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring my beautiful{' '}
         <strong className="text-stone-100">college campus</strong>.
       </p>
@@ -102,7 +102,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am an someone with an entrepreneurial spirit, a knack for web development, and a passion for coding. Born in a small town in Talara, Kangra, I made my move to NIT Hamirpur where I persue my bachelors.
+  description: `I am someone with an entrepreneurial spirit, a knack for web development, and a passion for coding. Born in a small town in Talara, Kangra, I made my move to NIT Hamirpur where I persue my bachelors.
   
 Outside of college I enjoy watching movies , playing games. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio during lockdown at my home..`,
   aboutItems: [
@@ -287,7 +287,11 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         1. Formalised growth startegy.
+      </p>
+      <p>
         2. Started a fund raising campaign.
+       </p>
+      <p>
         3. Executed various marketing campaigns.
       </p>
     ),
@@ -299,7 +303,11 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         1. Organised various events for the NGO.
+      </p>
+      <p>
         2. Raised funds for the NGO by approaching people.
+      </p>
+      <p>
         3. Learned how NGOs functions and how you can create an impact.
       </p>
     ),
