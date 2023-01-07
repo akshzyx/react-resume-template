@@ -281,8 +281,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'May 2020 - June 2020',
-    location: 'Jankalyan Multipurpose Education Society',
-    title: 'Intern',
+    location: 'Intern',
+    title: 'Jankalyan Multipurpose Education Society',
     content: (
       <p>
         1. Formalised growth startegy.
@@ -293,8 +293,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'June 2020 - July 2020',
-    location: 'Muskurahat Foundation',
-    title: 'Intern',
+    location: 'Intern',
+    title: 'Muskurahat Foundation',
     content: (
       <p>
         1. Organised various events for the NGO.
@@ -347,11 +347,11 @@ export const contact: ContactSection = {
       text: 'Hamirpur, HP',
       href: 'https://www.google.ca/maps/place/National+Institute+of+Technology,+Hamirpur+(NIT+-+Hamirpur)/@31.7084336,76.5231254,17z/data=!3m1!4b1!4m5!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.7084291!4d76.5273526',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/akshzyx/',
-    },
+//     {
+//       type: ContactType.Instagram,
+//       text: '@tbakerx',
+//       href: 'https://www.instagram.com/akshzyx/',
+//     },
     {
       type: ContactType.Github,
       text: 'akshzyx',
@@ -365,8 +365,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/akshzyx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/16876093/aksh'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/akshzyx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/akshzyx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/akshzyx'},
+//   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/akshzyx/'},
+//   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/akshzyx'},
 ];
