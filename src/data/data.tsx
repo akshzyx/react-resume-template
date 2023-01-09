@@ -120,23 +120,6 @@ Outside of college I enjoy watching movies , playing games. I love to travel and
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Hindi',
-        level: 10,
-      },
-      {
-        name: 'German',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
       {
@@ -147,10 +130,10 @@ export const skills: SkillGroup[] = [
         name: 'Javascript',
         level: 6,
       },
-      {
-        name: 'React.js',
-        level: 6,
-      },
+//       {
+//         name: 'React.js',
+//         level: 6,
+//       },
     ],
   },
   {
@@ -194,6 +177,23 @@ export const skills: SkillGroup[] = [
         name: 'Algorithms',
         level: 5,
       },
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'Hindi',
+        level: 10,
+      },
+//       {
+//         name: 'German',
+//         level: 3,
+//       },
     ],
   },
 ];
