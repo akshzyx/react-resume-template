@@ -76,8 +76,8 @@ export const heroData: Hero = {
         I’m a pre-final year undergraduate student at <strong className="text-stone-100">National Institute of Technology Hamirpur, Himachal Pradesh</strong>, currently pursuing my bachelor's degree in Chemical Engineering.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring my beautiful{' '}
+        In my free time time, you can catch me watching <strong className="text-stone-100">Sci-fi Movies</strong>,
+        learning about <strong className="text-stone-100">History</strong>, or exploring my beautiful{' '}
         <strong className="text-stone-100">college campus</strong>.
       </p>
     </>
