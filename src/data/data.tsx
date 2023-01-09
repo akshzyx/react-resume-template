@@ -170,19 +170,32 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+//   {
+//     name: 'Programming languages',
+//     skills: [
+//       {
+//         name: 'pyhton',
+//         level: 8,
+//       },
+//       {
+//         name: 'Javascript',
+//         level: 6,
+//       },
+//       {
+//         name: 'C',
+//         level: 5,
+//       },
+//     ],
+//   },
   {
-    name: 'Programming languages',
+    name: 'Data Structures & Algorithms',
     skills: [
       {
-        name: 'pyhton',
-        level: 8,
+        name: 'Data Structures',
+        level: 7,
       },
       {
-        name: 'Javascript',
-        level: 6,
-      },
-      {
-        name: 'C',
+        name: 'Algorithms',
         level: 5,
       },
     ],
