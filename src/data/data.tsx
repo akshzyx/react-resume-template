@@ -84,7 +84,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/https://drive.google.com/',
+      href: '/src/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
